@@ -1,0 +1,346 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href=
+    "https://cdn.dribbble.com/userupload/20584089/file/original-1146fa8a07a67ee6607f72547f5e0306.jpg"
+            type="image/x-icon" />
+    <title>Upload PDF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('https://thumbs.dreamstime.com/b/diet-healthy-food-lifestyle-health-concept-sport-exercise-equipment-workout-and-gym-background-nutrition-detox-salad-176440975.jpg') no-repeat center center/cover;
+            position: relative;
+        }
+        
+        /* Blur background */
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: blur(8px);
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(240, 238, 243);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 900;
+            background-color: rgba(46, 10, 144, 0.8);
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: inline-block;
+            text-align: left;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label, input, select {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        #loading {
+            display: none;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div> <!-- Blur background layer 
+    <div class="container">
+        
+        <form id="uploadForm" action="/" method="post" enctype="multipart/form-data">
+            <h2>Fill Your infomation </h2>
+            <label>Enter Your Name</label>
+            <input type="text" name="name" required>
+
+            <label>Enter Age</label>
+            <input type="number" name="age" required>
+
+            <label for="gender">Select Gender</label>
+            <select name="gender" required>
+                <option value="1">Male</option>
+                <option value="0">Female</option>
+            </select>
+            <label>Enter Weight</label>
+            <input name="weight" type="number" required>
+            <label>Enter Height in Centimeter</label>
+            <input name="height" type="number" required>
+            <label for="food">Select Diet Type</label>
+            <select name="food" required>
+                <option value="veg">Vegetarian</option>
+                <option value="nonveg">Non-Vegetarian</option>
+                <option value="both">Veg & Non Veg</option>
+                <option value="vegan">Vegan</option>
+            </select>
+            <label>Upload a PDF</label>
+            <input type="file" name="file" accept="application/pdf" required>
+
+            <label>Systolic Blood Pressure</label>
+            <input type="number" name="sysBP" required>
+
+            <label>Diastolic Blood Pressure</label>
+            <input type="number" name="diaBP" required>
+
+            <label>Are You a Smoker?</label>
+            <select name="smoker">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <label>Are You Diabetic?</label>
+            <select name="diabetic">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <label>Did you suffer from a heart attack?</label>
+            <select name="heart_attack">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <button type="submit">Upload</button>
+            <p id="loading">Uploading... Please wait.</p>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("uploadForm").addEventListener("submit", function(event) {
+            document.getElementById("loading").style.display = "block";
+        });
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="https://cdn.dribbble.com/userupload/20584089/file/original-1146fa8a07a67ee6607f72547f5e0306.jpg" type="image/x-icon" />
+    <title>Upload PDF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('https://thumbs.dreamstime.com/b/diet-healthy-food-lifestyle-health-concept-sport-exercise-equipment-workout-and-gym-background-nutrition-detox-salad-176440975.jpg') no-repeat center center/cover;
+            position: relative;
+        }
+
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: blur(8px);
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            max-width: 900px;
+        }
+
+        h2 {
+            color: rgb(217, 211, 222);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 900;
+            background-color: rgba(48, 4, 171, 0.8);
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px 40px;
+            text-align: left;
+        }
+
+        form h2 {
+            grid-column: span 2;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 12px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 8px;
+            grid-column: span 2;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        #loading {
+            display: none;
+            grid-column: span 2;
+            font-weight: bold;
+            color: #007bff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <form id="uploadForm" action="/" method="post" enctype="multipart/form-data">
+            <h2 style="text-align: center;">Fill Your Information</h2>
+
+            <div>
+                <label>Enter Your Name</label>
+                <input type="text" name="name" required>
+            </div>
+
+            <div>
+                <label>Enter Age</label>
+                <input type="number" name="age" required>
+            </div>
+
+            <div>
+                <label for="gender">Select Gender</label>
+                <select name="gender" required>
+                    <option value="1">Male</option>
+                    <option value="0">Female</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Enter Weight</label>
+                <input name="weight" type="number" required>
+            </div>
+
+            <div>
+                <label>Enter Height in Centimeter</label>
+                <input name="height" type="number" required>
+            </div>
+
+            <div>
+                <label for="food">Select Diet Type</label>
+                <select name="food" required>
+                    
+                    <option value="veg">Vegetarian</option>
+                    <option value="nonveg">Non-Vegetarian</option>
+                    <option value="both">Veg & Non Veg</option>
+                    <option value="vegan">Vegan</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Upload a PDF</label>
+                <input type="file" name="file" accept="application/pdf" required>
+            </div>
+
+            <div>
+                <label>Systolic Blood Pressure</label>
+                <input type="number" name="sysBP" required>
+            </div>
+
+            <div>
+                <label>Diastolic Blood Pressure</label>
+                <input type="number" name="diaBP" required>
+            </div>
+
+            <div>
+                <label>Are You a Smoker?</label>
+                <select name="smoker">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Are You Diabetic?</label>
+                <select name="diabetic">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Did you suffer from a heart attack?</label>
+                <select name="heart_attack">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+            </div>
+
+            <button type="submit">Upload</button>
+            <p id="loading">Uploading... Please wait.</p>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("uploadForm").addEventListener("submit", function(event) {
+            document.getElementById("loading").style.display = "block";
+        });
+    </script>
+</body>
+</html>

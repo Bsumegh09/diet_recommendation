@@ -1,0 +1,1001 @@
+Age,Gender,Total Cholesterol,Triglycerides,HDL,LDL,Diet
+67,Female,254,51,32,147,Low Fat Diet
+61,Male,283,115,63,100,Low Fat Diet
+28,Female,290,75,61,164,Low Fat Diet
+61,Male,271,130,69,174,Low Fat Diet
+79,Female,154,65,32,85,High Protein Diet
+30,Male,283,242,68,145,Low Fat Diet
+43,Female,275,156,43,118,Low Fat Diet
+51,Male,202,131,51,186,Low Fat Diet
+60,Female,223,74,50,170,Low Fat Diet
+34,Male,160,101,59,178,Low Fat Diet
+41,Male,216,142,52,108,Mediterranean Diet
+60,Female,266,172,67,88,Low Fat Diet
+69,Female,216,63,30,109,Mediterranean Diet
+24,Male,287,66,35,97,Low Fat Diet
+20,Male,240,159,41,174,Low Fat Diet
+68,Male,249,164,53,155,Low Fat Diet
+38,Male,275,151,39,177,Low Fat Diet
+36,Female,158,106,31,108,High Protein Diet
+51,Female,195,211,55,158,Mediterranean Diet
+41,Male,255,239,54,161,Low Fat Diet
+58,Female,152,241,51,166,Low Fat Diet
+56,Male,180,118,53,161,Low Fat Diet
+25,Male,222,214,69,116,Mediterranean Diet
+29,Female,213,229,60,174,Low Fat Diet
+48,Female,244,68,34,88,Low Fat Diet
+36,Male,186,201,48,169,Low Fat Diet
+70,Female,247,74,62,161,Low Fat Diet
+77,Female,227,246,48,96,Mediterranean Diet
+24,Male,223,54,67,105,Mediterranean Diet
+64,Female,200,161,33,178,Low Fat Diet
+23,Female,260,100,67,150,Low Fat Diet
+78,Female,186,242,69,136,Mediterranean Diet
+70,Male,175,113,64,139,Mediterranean Diet
+45,Female,296,88,58,101,Low Fat Diet
+22,Female,261,130,58,106,Low Fat Diet
+67,Male,224,240,37,135,Mediterranean Diet
+27,Female,170,162,53,118,High Protein Diet
+52,Male,174,140,52,131,Mediterranean Diet
+54,Female,295,114,69,112,Low Fat Diet
+48,Male,232,128,63,99,Mediterranean Diet
+32,Male,279,137,30,160,Low Fat Diet
+56,Female,285,142,65,156,Low Fat Diet
+66,Female,266,195,60,131,Low Fat Diet
+64,Male,212,166,37,181,Low Fat Diet
+73,Female,225,214,40,129,Mediterranean Diet
+42,Male,221,203,37,175,Low Fat Diet
+37,Female,268,249,67,163,Low Fat Diet
+71,Female,248,94,60,127,Low Fat Diet
+44,Female,234,199,43,181,Low Fat Diet
+22,Male,184,224,66,121,High Protein Diet
+39,Female,191,149,47,101,High Protein Diet
+57,Male,240,52,55,117,Mediterranean Diet
+63,Female,150,125,40,138,Mediterranean Diet
+63,Female,204,239,41,157,Mediterranean Diet
+51,Female,224,111,31,135,Mediterranean Diet
+29,Female,185,177,60,176,Low Fat Diet
+72,Male,297,149,65,174,Low Fat Diet
+36,Male,258,175,44,167,Low Fat Diet
+51,Male,153,246,55,137,Mediterranean Diet
+20,Male,223,217,47,143,Mediterranean Diet
+54,Male,285,84,31,135,Low Fat Diet
+77,Female,202,156,42,183,Low Fat Diet
+78,Male,294,169,53,94,Low Fat Diet
+29,Female,194,150,34,179,Low Fat Diet
+67,Male,186,208,47,123,High Protein Diet
+61,Female,276,130,54,157,Low Fat Diet
+55,Male,186,132,42,137,Mediterranean Diet
+27,Female,244,67,67,177,Low Fat Diet
+20,Female,289,229,42,169,Low Fat Diet
+51,Male,269,72,57,184,Low Fat Diet
+24,Female,234,56,38,89,Mediterranean Diet
+51,Female,275,149,51,148,Low Fat Diet
+75,Male,158,125,42,156,Mediterranean Diet
+69,Male,226,153,46,119,Mediterranean Diet
+76,Male,153,76,44,174,Low Fat Diet
+40,Male,237,228,59,125,Mediterranean Diet
+29,Female,169,147,68,181,Low Fat Diet
+47,Male,178,104,69,118,High Protein Diet
+34,Male,182,208,36,180,Low Fat Diet
+74,Female,270,135,46,109,Low Fat Diet
+58,Male,290,53,37,140,Low Fat Diet
+71,Male,280,228,61,151,Low Fat Diet
+76,Female,246,63,33,175,Low Fat Diet
+64,Male,285,145,46,156,Low Fat Diet
+48,Male,256,66,33,181,Low Fat Diet
+54,Male,188,216,33,136,Mediterranean Diet
+25,Male,222,214,49,106,Mediterranean Diet
+43,Female,170,232,69,165,Low Fat Diet
+45,Male,292,227,62,145,Low Fat Diet
+64,Female,157,216,51,178,Low Fat Diet
+77,Male,282,124,51,124,Low Fat Diet
+79,Male,270,224,59,134,Low Fat Diet
+29,Female,152,163,47,157,Mediterranean Diet
+73,Female,225,176,39,167,Low Fat Diet
+64,Female,197,100,61,83,High Protein Diet
+73,Female,194,142,57,131,Mediterranean Diet
+44,Female,222,183,57,185,Low Fat Diet
+21,Male,195,132,41,80,High Protein Diet
+36,Female,191,105,66,147,Mediterranean Diet
+62,Male,282,96,47,110,Low Fat Diet
+59,Female,282,147,66,134,Low Fat Diet
+45,Female,235,111,36,82,Mediterranean Diet
+54,Male,287,246,35,138,Low Fat Diet
+55,Male,196,80,34,178,Low Fat Diet
+26,Female,249,126,51,107,Low Fat Diet
+35,Male,274,206,48,128,Low Fat Diet
+68,Male,199,53,35,118,High Protein Diet
+27,Male,249,239,50,121,Low Fat Diet
+69,Male,247,207,47,180,Low Fat Diet
+73,Male,177,158,51,155,Mediterranean Diet
+60,Male,174,90,56,128,High Protein Diet
+38,Female,279,231,32,83,Low Fat Diet
+76,Male,245,170,34,145,Low Fat Diet
+42,Male,244,105,51,144,Low Fat Diet
+51,Female,167,189,45,141,Mediterranean Diet
+47,Male,265,152,50,113,Low Fat Diet
+73,Female,222,112,67,171,Low Fat Diet
+58,Female,172,228,50,180,Low Fat Diet
+33,Female,158,88,33,110,High Protein Diet
+46,Male,172,203,48,165,Low Fat Diet
+66,Male,209,167,34,179,Low Fat Diet
+56,Female,232,174,31,161,Low Fat Diet
+56,Female,285,216,53,130,Low Fat Diet
+45,Male,186,167,39,121,High Protein Diet
+57,Male,185,143,35,172,Low Fat Diet
+38,Male,234,205,40,116,Mediterranean Diet
+67,Female,296,213,67,182,Low Fat Diet
+29,Male,188,133,57,169,Low Fat Diet
+35,Female,252,145,60,171,Low Fat Diet
+23,Female,205,85,50,124,Mediterranean Diet
+46,Female,266,146,62,182,Low Fat Diet
+74,Female,220,183,53,153,Mediterranean Diet
+24,Female,272,160,34,156,Low Fat Diet
+75,Female,268,113,67,103,Low Fat Diet
+28,Female,216,231,59,142,Mediterranean Diet
+54,Male,285,95,36,85,Low Fat Diet
+62,Female,284,53,31,93,Low Fat Diet
+22,Female,180,66,40,97,High Protein Diet
+43,Female,157,193,66,145,Mediterranean Diet
+40,Female,259,193,49,179,Low Fat Diet
+40,Male,277,231,56,126,Low Fat Diet
+79,Male,192,239,51,100,High Protein Diet
+78,Male,173,98,60,186,Low Fat Diet
+29,Male,276,155,33,131,Low Fat Diet
+50,Male,212,190,31,97,Mediterranean Diet
+57,Female,286,81,31,165,Low Fat Diet
+39,Male,152,209,32,110,High Protein Diet
+25,Female,281,237,69,184,Low Fat Diet
+72,Male,169,182,59,88,High Protein Diet
+35,Female,206,118,33,107,Mediterranean Diet
+25,Male,199,94,38,176,Low Fat Diet
+38,Male,201,190,33,121,Mediterranean Diet
+52,Male,179,147,46,140,Mediterranean Diet
+32,Male,296,247,62,148,Low Fat Diet
+71,Male,208,93,48,134,Mediterranean Diet
+56,Female,156,166,62,167,Low Fat Diet
+79,Male,260,69,65,106,Low Fat Diet
+75,Female,192,179,33,189,Low Fat Diet
+56,Male,153,187,47,116,High Protein Diet
+39,Male,220,148,43,187,Low Fat Diet
+45,Female,298,104,47,173,Low Fat Diet
+72,Female,269,246,69,109,Low Fat Diet
+41,Female,247,177,45,186,Low Fat Diet
+78,Male,288,187,57,132,Low Fat Diet
+27,Female,244,229,34,115,Low Fat Diet
+73,Male,266,183,31,172,Low Fat Diet
+74,Male,270,117,64,184,Low Fat Diet
+74,Female,237,59,61,117,Mediterranean Diet
+68,Female,284,68,65,92,Low Fat Diet
+28,Female,189,190,36,87,High Protein Diet
+48,Female,155,135,62,161,Low Fat Diet
+43,Male,214,67,47,116,Mediterranean Diet
+68,Female,238,157,34,81,Mediterranean Diet
+41,Male,156,202,49,94,High Protein Diet
+35,Female,241,71,42,120,Low Fat Diet
+33,Male,198,72,63,171,Low Fat Diet
+54,Male,176,232,55,157,Mediterranean Diet
+41,Male,206,243,32,181,Low Fat Diet
+57,Female,158,82,54,133,Mediterranean Diet
+41,Female,282,168,45,160,Low Fat Diet
+63,Female,154,116,35,111,High Protein Diet
+31,Female,176,97,57,88,High Protein Diet
+26,Male,176,127,33,93,High Protein Diet
+58,Female,220,139,37,114,Mediterranean Diet
+76,Male,170,161,45,93,High Protein Diet
+74,Female,226,182,38,117,Mediterranean Diet
+41,Female,260,222,43,142,Low Fat Diet
+40,Female,223,213,36,101,Mediterranean Diet
+25,Male,152,161,59,172,Low Fat Diet
+49,Male,169,246,69,115,High Protein Diet
+57,Female,192,71,63,154,Mediterranean Diet
+30,Female,156,66,52,149,Mediterranean Diet
+78,Male,256,150,42,185,Low Fat Diet
+74,Female,179,242,63,182,Low Fat Diet
+27,Male,206,171,31,186,Low Fat Diet
+69,Female,199,213,61,189,Low Fat Diet
+32,Male,264,62,48,124,Low Fat Diet
+37,Male,220,64,51,104,Mediterranean Diet
+48,Female,292,234,54,179,Low Fat Diet
+59,Male,189,146,31,85,High Protein Diet
+50,Female,232,67,35,122,Mediterranean Diet
+74,Female,277,112,37,86,Low Fat Diet
+79,Female,276,172,35,104,Low Fat Diet
+66,Female,277,179,64,189,Low Fat Diet
+39,Female,221,110,55,148,Mediterranean Diet
+77,Male,203,147,60,117,Mediterranean Diet
+66,Female,276,121,39,90,Low Fat Diet
+67,Male,265,69,57,158,Low Fat Diet
+69,Female,299,145,58,116,Low Fat Diet
+47,Male,223,58,30,188,Low Fat Diet
+63,Male,222,109,58,152,Mediterranean Diet
+62,Female,185,249,57,140,Mediterranean Diet
+57,Male,189,90,47,183,Low Fat Diet
+37,Female,238,119,68,137,Mediterranean Diet
+37,Female,201,226,31,173,Low Fat Diet
+56,Female,296,178,39,160,Low Fat Diet
+30,Female,172,94,65,181,Low Fat Diet
+28,Male,223,56,41,161,Low Fat Diet
+55,Female,217,55,53,125,Mediterranean Diet
+75,Female,226,240,47,102,Mediterranean Diet
+21,Female,220,154,64,143,Mediterranean Diet
+68,Female,159,183,47,158,Mediterranean Diet
+24,Female,262,236,62,188,Low Fat Diet
+60,Male,168,69,68,101,High Protein Diet
+20,Male,179,177,34,111,High Protein Diet
+79,Female,231,79,30,159,Mediterranean Diet
+27,Male,194,124,54,118,High Protein Diet
+33,Male,251,118,68,111,Low Fat Diet
+61,Male,263,87,61,96,Low Fat Diet
+54,Female,176,226,47,144,Mediterranean Diet
+52,Male,201,103,47,146,Mediterranean Diet
+30,Male,156,185,57,153,Mediterranean Diet
+53,Male,277,82,47,152,Low Fat Diet
+53,Male,152,226,68,139,Mediterranean Diet
+37,Male,168,239,51,154,Mediterranean Diet
+68,Female,222,205,55,175,Low Fat Diet
+68,Female,234,119,52,83,Mediterranean Diet
+27,Male,252,225,32,94,Low Fat Diet
+25,Male,193,224,36,188,Low Fat Diet
+29,Male,281,238,69,168,Low Fat Diet
+27,Male,230,151,31,151,Mediterranean Diet
+62,Male,197,107,37,122,High Protein Diet
+29,Female,206,179,37,120,Mediterranean Diet
+65,Female,222,158,34,148,Mediterranean Diet
+47,Female,235,51,62,104,Mediterranean Diet
+38,Female,271,226,49,137,Low Fat Diet
+49,Female,240,132,53,87,Mediterranean Diet
+49,Male,219,208,36,109,Mediterranean Diet
+51,Male,197,195,69,129,High Protein Diet
+40,Female,164,235,59,166,Low Fat Diet
+40,Female,168,107,35,81,High Protein Diet
+69,Female,297,159,44,144,Low Fat Diet
+39,Male,176,59,45,130,High Protein Diet
+24,Female,282,198,41,98,Low Fat Diet
+62,Male,204,237,68,171,Low Fat Diet
+67,Male,210,248,64,140,Mediterranean Diet
+60,Male,212,60,57,172,Low Fat Diet
+38,Female,266,71,47,122,Low Fat Diet
+68,Female,175,172,32,165,Low Fat Diet
+32,Female,254,240,68,80,Low Fat Diet
+76,Female,166,142,41,83,High Protein Diet
+47,Male,267,194,35,178,Low Fat Diet
+56,Male,249,79,34,136,Low Fat Diet
+34,Male,295,171,33,106,Low Fat Diet
+26,Female,204,84,65,156,Mediterranean Diet
+40,Female,264,225,41,112,Low Fat Diet
+60,Female,200,72,55,176,Low Fat Diet
+32,Female,278,50,44,104,Low Fat Diet
+61,Female,201,209,37,166,Low Fat Diet
+22,Female,194,76,35,83,High Protein Diet
+68,Female,244,80,58,118,Low Fat Diet
+30,Male,195,199,39,84,High Protein Diet
+68,Male,256,185,69,140,Low Fat Diet
+50,Female,192,100,39,82,High Protein Diet
+40,Male,259,136,61,105,Low Fat Diet
+70,Male,253,150,38,153,Low Fat Diet
+38,Male,210,108,31,187,Low Fat Diet
+74,Male,287,109,50,117,Low Fat Diet
+54,Male,252,129,45,161,Low Fat Diet
+67,Male,249,163,55,108,Low Fat Diet
+53,Male,187,189,49,149,Mediterranean Diet
+42,Male,174,161,67,147,Mediterranean Diet
+21,Male,159,127,40,181,Low Fat Diet
+23,Female,272,62,32,91,Low Fat Diet
+28,Male,242,157,50,131,Low Fat Diet
+79,Female,164,176,63,86,High Protein Diet
+65,Female,214,204,44,87,Mediterranean Diet
+55,Female,265,208,37,170,Low Fat Diet
+46,Male,247,109,30,83,Low Fat Diet
+79,Female,230,69,58,89,Mediterranean Diet
+34,Male,194,106,41,111,High Protein Diet
+41,Female,201,192,38,140,Mediterranean Diet
+76,Male,208,56,50,132,Mediterranean Diet
+50,Male,267,127,39,175,Low Fat Diet
+40,Female,224,232,69,86,Mediterranean Diet
+36,Male,248,235,51,169,Low Fat Diet
+24,Female,283,57,44,140,Low Fat Diet
+58,Female,224,137,62,139,Mediterranean Diet
+41,Male,233,158,36,91,Mediterranean Diet
+39,Male,275,228,62,98,Low Fat Diet
+75,Male,253,126,50,188,Low Fat Diet
+79,Male,222,140,67,158,Mediterranean Diet
+75,Female,175,244,40,154,Mediterranean Diet
+70,Female,221,177,44,134,Mediterranean Diet
+20,Male,256,222,41,109,Low Fat Diet
+58,Male,209,141,32,86,Mediterranean Diet
+49,Male,235,85,52,111,Mediterranean Diet
+33,Female,299,239,53,119,Low Fat Diet
+26,Male,171,247,39,156,Mediterranean Diet
+63,Female,298,189,57,146,Low Fat Diet
+76,Female,236,187,58,188,Low Fat Diet
+33,Male,239,186,42,180,Low Fat Diet
+37,Male,212,122,67,177,Low Fat Diet
+56,Male,248,104,57,147,Low Fat Diet
+38,Female,236,169,41,135,Mediterranean Diet
+79,Female,251,59,32,183,Low Fat Diet
+76,Male,271,71,41,102,Low Fat Diet
+64,Female,250,179,61,123,Low Fat Diet
+35,Male,183,127,31,164,Low Fat Diet
+67,Female,171,172,55,122,High Protein Diet
+31,Male,205,69,45,159,Mediterranean Diet
+23,Female,271,185,41,101,Low Fat Diet
+31,Female,236,69,31,134,Mediterranean Diet
+55,Male,296,180,35,110,Low Fat Diet
+37,Male,264,154,41,122,Low Fat Diet
+39,Female,269,53,35,128,Low Fat Diet
+34,Male,168,147,44,189,Low Fat Diet
+20,Female,218,79,37,112,Mediterranean Diet
+20,Female,183,82,31,105,High Protein Diet
+67,Male,212,219,38,109,Mediterranean Diet
+71,Female,167,148,68,119,High Protein Diet
+52,Female,161,239,57,174,Low Fat Diet
+45,Male,252,223,59,151,Low Fat Diet
+57,Male,241,230,64,165,Low Fat Diet
+42,Female,233,100,62,139,Mediterranean Diet
+26,Female,175,114,66,138,Mediterranean Diet
+24,Male,295,50,66,141,Low Fat Diet
+37,Female,281,184,53,102,Low Fat Diet
+22,Female,238,167,56,118,Mediterranean Diet
+56,Female,194,231,63,96,High Protein Diet
+48,Male,228,132,66,82,Mediterranean Diet
+59,Male,181,60,62,80,High Protein Diet
+26,Female,283,104,55,98,Low Fat Diet
+40,Female,295,161,58,88,Low Fat Diet
+75,Male,176,60,49,96,High Protein Diet
+39,Female,199,129,55,188,Low Fat Diet
+32,Female,237,53,57,112,Mediterranean Diet
+57,Female,259,94,33,171,Low Fat Diet
+47,Male,208,195,39,90,Mediterranean Diet
+54,Male,156,223,49,109,High Protein Diet
+45,Male,184,61,43,150,Mediterranean Diet
+78,Male,200,206,60,112,Mediterranean Diet
+54,Male,228,146,33,116,Mediterranean Diet
+25,Male,237,241,35,181,Low Fat Diet
+21,Male,222,67,32,158,Mediterranean Diet
+50,Male,262,124,55,86,Low Fat Diet
+73,Male,275,74,69,165,Low Fat Diet
+26,Male,177,204,40,166,Low Fat Diet
+36,Male,284,210,30,80,Low Fat Diet
+78,Male,245,200,60,138,Low Fat Diet
+34,Male,162,97,63,119,High Protein Diet
+32,Male,263,76,41,179,Low Fat Diet
+57,Female,248,196,69,85,Low Fat Diet
+48,Female,295,220,31,113,Low Fat Diet
+77,Female,156,74,41,180,Low Fat Diet
+34,Female,213,133,40,124,Mediterranean Diet
+22,Female,150,115,47,150,Mediterranean Diet
+29,Female,220,211,53,141,Mediterranean Diet
+39,Female,198,74,50,106,High Protein Diet
+65,Male,218,207,41,89,Mediterranean Diet
+65,Female,262,222,65,113,Low Fat Diet
+78,Male,163,161,39,103,High Protein Diet
+41,Male,199,181,57,88,High Protein Diet
+32,Female,271,118,30,120,Low Fat Diet
+59,Male,234,122,48,92,Mediterranean Diet
+59,Male,249,60,34,91,Low Fat Diet
+50,Female,290,194,64,175,Low Fat Diet
+55,Female,290,192,63,189,Low Fat Diet
+61,Male,270,173,54,177,Low Fat Diet
+72,Female,217,132,30,123,Mediterranean Diet
+60,Male,278,172,50,90,Low Fat Diet
+26,Female,248,91,48,179,Low Fat Diet
+42,Male,231,66,58,146,Mediterranean Diet
+30,Female,154,154,61,122,High Protein Diet
+31,Female,229,233,31,84,Mediterranean Diet
+27,Male,162,64,41,100,High Protein Diet
+33,Female,152,139,52,150,Mediterranean Diet
+78,Female,197,204,52,141,Mediterranean Diet
+22,Female,166,67,52,143,Mediterranean Diet
+77,Male,273,85,39,152,Low Fat Diet
+68,Female,252,241,60,132,Low Fat Diet
+55,Female,250,178,34,89,Low Fat Diet
+29,Female,206,217,34,132,Mediterranean Diet
+65,Female,169,117,65,116,High Protein Diet
+46,Male,299,52,37,184,Low Fat Diet
+73,Male,277,164,48,172,Low Fat Diet
+28,Male,168,76,49,128,High Protein Diet
+24,Female,271,69,59,177,Low Fat Diet
+75,Male,254,119,51,149,Low Fat Diet
+78,Female,261,121,33,95,Low Fat Diet
+52,Male,210,70,38,171,Low Fat Diet
+57,Female,226,194,43,87,Mediterranean Diet
+42,Male,299,107,34,121,Low Fat Diet
+29,Male,257,79,47,128,Low Fat Diet
+32,Male,276,120,33,92,Low Fat Diet
+70,Male,273,215,63,188,Low Fat Diet
+21,Male,169,53,67,128,High Protein Diet
+70,Female,172,73,41,114,High Protein Diet
+76,Female,183,232,56,184,Low Fat Diet
+70,Female,281,166,52,182,Low Fat Diet
+59,Female,184,187,56,103,High Protein Diet
+71,Female,215,148,62,148,Mediterranean Diet
+64,Female,190,117,64,100,High Protein Diet
+54,Male,185,210,59,86,High Protein Diet
+20,Male,225,225,44,92,Mediterranean Diet
+58,Female,278,175,43,130,Low Fat Diet
+69,Male,209,170,64,189,Low Fat Diet
+35,Male,227,125,35,151,Mediterranean Diet
+50,Male,289,101,53,177,Low Fat Diet
+57,Male,242,218,59,89,Low Fat Diet
+57,Female,274,180,64,183,Low Fat Diet
+47,Male,299,143,39,172,Low Fat Diet
+34,Female,210,127,46,118,Mediterranean Diet
+67,Male,198,163,57,156,Mediterranean Diet
+32,Female,230,189,48,103,Mediterranean Diet
+38,Male,212,140,33,137,Mediterranean Diet
+31,Female,262,176,58,108,Low Fat Diet
+73,Male,227,227,58,123,Mediterranean Diet
+41,Male,241,84,51,132,Low Fat Diet
+59,Female,255,136,50,171,Low Fat Diet
+55,Female,188,116,67,130,High Protein Diet
+23,Female,271,159,61,176,Low Fat Diet
+43,Female,237,239,56,157,Mediterranean Diet
+56,Female,232,157,48,155,Mediterranean Diet
+48,Female,242,196,65,183,Low Fat Diet
+57,Female,220,55,38,132,Mediterranean Diet
+55,Female,188,109,33,186,Low Fat Diet
+36,Female,286,202,44,165,Low Fat Diet
+46,Male,202,222,64,184,Low Fat Diet
+63,Female,284,217,35,186,Low Fat Diet
+45,Female,164,222,30,158,Mediterranean Diet
+40,Male,291,69,57,189,Low Fat Diet
+20,Male,162,106,34,169,Low Fat Diet
+58,Male,170,208,47,160,Mediterranean Diet
+51,Male,200,134,40,92,Mediterranean Diet
+71,Male,240,50,56,141,Mediterranean Diet
+69,Female,164,122,66,148,Mediterranean Diet
+20,Male,210,108,61,180,Low Fat Diet
+74,Female,290,148,63,101,Low Fat Diet
+22,Male,238,185,47,130,Mediterranean Diet
+53,Female,178,138,30,81,High Protein Diet
+20,Female,160,111,63,132,Mediterranean Diet
+54,Male,292,182,51,145,Low Fat Diet
+45,Male,152,120,30,117,High Protein Diet
+22,Female,192,166,51,143,Mediterranean Diet
+65,Female,269,160,52,80,Low Fat Diet
+67,Male,179,68,45,129,High Protein Diet
+50,Female,281,72,66,110,Low Fat Diet
+23,Female,263,142,44,131,Low Fat Diet
+47,Female,263,129,55,185,Low Fat Diet
+54,Male,260,90,69,154,Low Fat Diet
+58,Male,237,75,35,149,Mediterranean Diet
+62,Female,167,60,59,155,Mediterranean Diet
+50,Male,284,206,39,160,Low Fat Diet
+71,Male,154,217,65,91,High Protein Diet
+52,Male,156,56,49,152,Mediterranean Diet
+72,Female,234,89,30,138,Mediterranean Diet
+67,Male,243,56,42,148,Low Fat Diet
+42,Female,160,141,56,158,Mediterranean Diet
+44,Male,199,220,52,143,Mediterranean Diet
+32,Male,180,193,31,178,Low Fat Diet
+30,Male,242,110,37,151,Low Fat Diet
+64,Male,204,89,46,98,Mediterranean Diet
+48,Male,270,247,54,173,Low Fat Diet
+52,Female,265,125,45,148,Low Fat Diet
+26,Male,214,107,47,163,Low Fat Diet
+65,Female,209,52,68,83,Mediterranean Diet
+36,Female,227,162,40,110,Mediterranean Diet
+27,Female,163,200,42,90,High Protein Diet
+51,Female,193,194,60,185,Low Fat Diet
+23,Male,190,117,47,86,High Protein Diet
+21,Male,261,184,39,155,Low Fat Diet
+39,Male,195,248,62,132,Mediterranean Diet
+73,Female,171,111,48,104,High Protein Diet
+79,Male,229,160,60,103,Mediterranean Diet
+40,Male,256,233,59,94,Low Fat Diet
+78,Female,262,56,62,126,Low Fat Diet
+66,Male,208,91,43,130,Mediterranean Diet
+34,Female,183,210,67,146,Mediterranean Diet
+60,Female,155,170,62,111,High Protein Diet
+62,Female,289,73,31,156,Low Fat Diet
+53,Male,228,102,62,105,Mediterranean Diet
+69,Male,170,76,35,147,Mediterranean Diet
+69,Male,210,153,33,139,Mediterranean Diet
+23,Female,191,191,53,90,High Protein Diet
+40,Female,165,51,55,101,High Protein Diet
+44,Female,180,187,68,183,Low Fat Diet
+65,Female,245,175,34,153,Low Fat Diet
+35,Female,271,52,53,156,Low Fat Diet
+54,Female,276,195,59,158,Low Fat Diet
+22,Male,157,129,47,115,High Protein Diet
+36,Female,187,73,41,83,High Protein Diet
+78,Female,289,193,57,117,Low Fat Diet
+38,Female,254,180,58,96,Low Fat Diet
+35,Male,207,108,53,84,Mediterranean Diet
+78,Male,180,239,37,178,Low Fat Diet
+56,Female,268,136,61,89,Low Fat Diet
+47,Female,276,249,55,152,Low Fat Diet
+22,Female,238,109,46,117,Mediterranean Diet
+54,Female,231,53,44,178,Low Fat Diet
+28,Female,186,103,62,109,High Protein Diet
+44,Male,197,103,50,106,High Protein Diet
+64,Male,245,102,64,121,Low Fat Diet
+68,Female,200,234,45,132,Mediterranean Diet
+24,Male,278,215,69,145,Low Fat Diet
+63,Male,272,159,35,155,Low Fat Diet
+30,Male,171,247,44,180,Low Fat Diet
+73,Female,169,117,51,90,High Protein Diet
+25,Female,170,203,67,156,Mediterranean Diet
+44,Female,234,119,55,148,Mediterranean Diet
+27,Male,186,181,69,166,Low Fat Diet
+59,Female,283,58,50,91,Low Fat Diet
+57,Male,243,207,53,154,Low Fat Diet
+57,Female,156,63,51,151,Mediterranean Diet
+22,Female,226,156,56,111,Mediterranean Diet
+35,Male,285,145,53,189,Low Fat Diet
+48,Male,202,216,48,159,Mediterranean Diet
+42,Male,163,125,68,148,Mediterranean Diet
+36,Male,246,148,50,92,Low Fat Diet
+27,Female,246,187,49,162,Low Fat Diet
+32,Male,232,66,64,121,Mediterranean Diet
+52,Male,283,131,66,122,Low Fat Diet
+55,Male,184,102,55,134,Mediterranean Diet
+73,Male,200,211,61,118,Mediterranean Diet
+57,Male,155,219,33,138,Mediterranean Diet
+42,Female,197,160,48,109,High Protein Diet
+30,Male,280,228,30,163,Low Fat Diet
+68,Female,151,112,34,121,High Protein Diet
+29,Female,240,246,30,168,Low Fat Diet
+60,Female,230,168,51,136,Mediterranean Diet
+30,Female,267,243,40,187,Low Fat Diet
+68,Female,218,64,61,129,Mediterranean Diet
+56,Female,241,159,51,90,Low Fat Diet
+50,Male,168,175,65,167,Low Fat Diet
+50,Female,217,173,36,160,Mediterranean Diet
+68,Male,231,101,48,95,Mediterranean Diet
+53,Male,151,168,64,147,Mediterranean Diet
+32,Male,271,147,55,116,Low Fat Diet
+70,Female,203,146,55,140,Mediterranean Diet
+41,Male,280,174,53,96,Low Fat Diet
+63,Male,244,128,66,122,Low Fat Diet
+24,Female,156,235,59,82,High Protein Diet
+43,Male,268,99,51,125,Low Fat Diet
+25,Female,287,84,63,184,Low Fat Diet
+22,Female,187,124,39,82,High Protein Diet
+28,Female,240,79,69,129,Mediterranean Diet
+65,Female,254,84,52,140,Low Fat Diet
+38,Male,223,108,41,158,Mediterranean Diet
+42,Female,198,97,32,173,Low Fat Diet
+50,Male,195,212,37,126,High Protein Diet
+44,Female,219,136,58,150,Mediterranean Diet
+29,Female,299,149,30,150,Low Fat Diet
+49,Male,151,220,64,128,High Protein Diet
+28,Female,187,176,62,100,High Protein Diet
+61,Male,190,237,36,127,High Protein Diet
+23,Male,296,89,30,162,Low Fat Diet
+73,Female,282,219,35,86,Low Fat Diet
+23,Male,249,133,67,86,Low Fat Diet
+65,Female,274,248,35,151,Low Fat Diet
+38,Male,214,220,36,133,Mediterranean Diet
+20,Male,150,159,42,182,Low Fat Diet
+79,Male,231,72,67,92,Mediterranean Diet
+40,Female,163,70,55,146,Mediterranean Diet
+57,Male,192,92,58,103,High Protein Diet
+28,Male,228,203,35,152,Mediterranean Diet
+40,Female,189,195,69,142,Mediterranean Diet
+43,Male,158,249,35,183,Low Fat Diet
+23,Female,279,213,60,169,Low Fat Diet
+39,Female,265,222,68,167,Low Fat Diet
+79,Male,227,97,48,105,Mediterranean Diet
+76,Male,288,133,52,122,Low Fat Diet
+26,Female,275,144,61,97,Low Fat Diet
+41,Female,261,150,44,120,Low Fat Diet
+31,Male,284,59,47,166,Low Fat Diet
+73,Female,241,234,51,150,Low Fat Diet
+29,Male,240,167,61,162,Low Fat Diet
+52,Female,197,228,52,157,Mediterranean Diet
+76,Female,162,152,47,100,High Protein Diet
+70,Female,156,181,63,122,High Protein Diet
+49,Male,159,161,53,154,Mediterranean Diet
+73,Male,225,154,30,136,Mediterranean Diet
+77,Female,162,121,43,112,High Protein Diet
+75,Female,251,74,55,123,Low Fat Diet
+54,Male,223,191,47,184,Low Fat Diet
+46,Male,194,70,43,142,Mediterranean Diet
+66,Male,299,106,65,173,Low Fat Diet
+51,Male,181,103,44,153,Mediterranean Diet
+29,Male,202,105,30,123,Mediterranean Diet
+56,Female,163,134,43,99,High Protein Diet
+27,Male,281,159,46,113,Low Fat Diet
+46,Female,174,210,64,129,High Protein Diet
+40,Female,276,109,59,130,Low Fat Diet
+40,Female,244,126,50,179,Low Fat Diet
+50,Male,198,80,61,168,Low Fat Diet
+25,Male,235,62,30,93,Mediterranean Diet
+73,Female,255,191,41,184,Low Fat Diet
+46,Male,281,185,46,153,Low Fat Diet
+30,Female,228,55,31,178,Low Fat Diet
+30,Male,232,64,43,142,Mediterranean Diet
+27,Male,283,60,38,141,Low Fat Diet
+54,Male,255,236,52,113,Low Fat Diet
+63,Female,189,159,45,158,Mediterranean Diet
+77,Male,179,166,63,150,Mediterranean Diet
+74,Female,204,121,35,140,Mediterranean Diet
+69,Male,273,167,59,157,Low Fat Diet
+23,Male,206,195,65,184,Low Fat Diet
+42,Male,174,225,61,169,Low Fat Diet
+60,Male,207,224,60,188,Low Fat Diet
+65,Female,224,158,63,185,Low Fat Diet
+25,Male,162,75,49,80,High Protein Diet
+27,Male,204,173,44,84,Mediterranean Diet
+56,Male,219,192,39,108,Mediterranean Diet
+49,Female,251,66,61,92,Low Fat Diet
+60,Female,181,209,52,175,Low Fat Diet
+31,Female,256,183,35,90,Low Fat Diet
+64,Male,264,168,33,132,Low Fat Diet
+79,Female,169,89,57,159,Mediterranean Diet
+21,Male,190,114,37,86,High Protein Diet
+60,Female,237,184,56,112,Mediterranean Diet
+67,Male,161,173,53,123,High Protein Diet
+55,Female,291,228,56,117,Low Fat Diet
+47,Female,164,152,55,138,Mediterranean Diet
+38,Female,176,127,33,179,Low Fat Diet
+78,Male,242,74,39,122,Low Fat Diet
+78,Male,237,166,46,142,Mediterranean Diet
+79,Female,264,85,31,106,Low Fat Diet
+25,Female,288,157,56,151,Low Fat Diet
+47,Male,221,212,40,116,Mediterranean Diet
+72,Male,253,223,49,141,Low Fat Diet
+72,Male,278,132,40,142,Low Fat Diet
+59,Female,284,59,42,129,Low Fat Diet
+75,Female,269,96,48,173,Low Fat Diet
+28,Female,240,202,64,107,Mediterranean Diet
+71,Female,280,65,40,117,Low Fat Diet
+56,Male,238,181,53,126,Mediterranean Diet
+36,Male,205,211,65,153,Mediterranean Diet
+78,Female,234,50,46,149,Mediterranean Diet
+32,Male,243,108,36,80,Low Fat Diet
+67,Male,222,183,64,89,Mediterranean Diet
+29,Female,198,154,66,173,Low Fat Diet
+71,Male,208,145,35,93,Mediterranean Diet
+22,Male,239,177,42,123,Mediterranean Diet
+38,Female,191,200,53,156,Mediterranean Diet
+34,Female,184,219,66,147,Mediterranean Diet
+66,Male,246,186,60,98,Low Fat Diet
+50,Male,235,181,41,90,Mediterranean Diet
+37,Female,187,58,54,189,Low Fat Diet
+42,Female,155,203,42,103,High Protein Diet
+72,Female,155,133,60,150,Mediterranean Diet
+26,Female,289,151,53,176,Low Fat Diet
+59,Male,295,180,42,179,Low Fat Diet
+66,Female,226,199,59,106,Mediterranean Diet
+51,Male,277,248,63,130,Low Fat Diet
+74,Female,186,170,52,148,Mediterranean Diet
+21,Male,188,76,35,137,Mediterranean Diet
+37,Female,237,75,52,170,Low Fat Diet
+40,Female,153,146,52,146,Mediterranean Diet
+50,Female,199,141,37,168,Low Fat Diet
+72,Female,251,244,46,138,Low Fat Diet
+58,Female,174,134,30,166,Low Fat Diet
+51,Female,232,160,60,126,Mediterranean Diet
+52,Male,154,109,53,95,High Protein Diet
+32,Male,168,103,32,174,Low Fat Diet
+46,Male,204,227,35,132,Mediterranean Diet
+73,Female,176,162,41,135,Mediterranean Diet
+25,Male,207,118,36,113,Mediterranean Diet
+22,Male,293,121,62,122,Low Fat Diet
+29,Female,223,75,46,154,Mediterranean Diet
+47,Female,221,173,69,170,Low Fat Diet
+21,Female,185,164,33,136,Mediterranean Diet
+39,Male,166,56,52,169,Low Fat Diet
+72,Female,218,188,34,143,Mediterranean Diet
+40,Female,235,191,36,137,Mediterranean Diet
+30,Female,291,129,36,135,Low Fat Diet
+78,Female,176,231,42,106,High Protein Diet
+67,Male,201,147,69,119,Mediterranean Diet
+20,Male,246,223,66,130,Low Fat Diet
+67,Female,255,230,60,94,Low Fat Diet
+68,Female,209,140,63,102,Mediterranean Diet
+51,Male,240,77,30,91,Mediterranean Diet
+70,Female,240,139,59,151,Mediterranean Diet
+57,Female,218,89,54,127,Mediterranean Diet
+63,Male,243,238,59,151,Low Fat Diet
+26,Male,256,54,33,114,Low Fat Diet
+28,Male,216,188,69,113,Mediterranean Diet
+44,Male,262,183,58,87,Low Fat Diet
+78,Female,236,112,30,140,Mediterranean Diet
+53,Female,243,72,46,149,Low Fat Diet
+27,Male,189,224,58,176,Low Fat Diet
+72,Female,251,50,39,105,Low Fat Diet
+59,Male,175,61,63,166,Low Fat Diet
+34,Male,262,227,43,183,Low Fat Diet
+49,Male,244,224,62,168,Low Fat Diet
+75,Male,269,84,48,111,Low Fat Diet
+73,Male,203,229,61,149,Mediterranean Diet
+59,Male,256,83,59,176,Low Fat Diet
+20,Female,193,166,45,100,High Protein Diet
+68,Female,271,106,63,127,Low Fat Diet
+79,Male,181,201,67,88,High Protein Diet
+77,Male,256,203,43,109,Low Fat Diet
+34,Female,198,190,52,139,Mediterranean Diet
+20,Male,242,170,31,149,Low Fat Diet
+22,Female,202,169,34,173,Low Fat Diet
+21,Male,296,233,33,127,Low Fat Diet
+67,Male,189,72,32,94,High Protein Diet
+33,Female,242,232,51,108,Low Fat Diet
+36,Female,240,99,35,150,Mediterranean Diet
+66,Male,281,241,67,95,Low Fat Diet
+49,Female,229,236,49,129,Mediterranean Diet
+67,Male,194,78,63,149,Mediterranean Diet
+20,Male,190,144,51,145,Mediterranean Diet
+54,Male,292,56,39,140,Low Fat Diet
+31,Female,154,113,46,91,High Protein Diet
+60,Male,273,104,68,177,Low Fat Diet
+42,Female,232,150,47,140,Mediterranean Diet
+47,Female,283,85,38,177,Low Fat Diet
+58,Male,221,108,64,144,Mediterranean Diet
+28,Male,236,97,42,83,Mediterranean Diet
+59,Female,252,188,63,110,Low Fat Diet
+29,Female,206,184,51,183,Low Fat Diet
+20,Male,175,224,66,106,High Protein Diet
+24,Female,195,132,69,188,Low Fat Diet
+79,Female,151,139,66,161,Low Fat Diet
+56,Male,209,64,55,144,Mediterranean Diet
+44,Female,231,247,34,90,Mediterranean Diet
+54,Male,220,93,36,109,Mediterranean Diet
+31,Male,165,128,51,110,High Protein Diet
+54,Male,236,222,43,128,Mediterranean Diet
+27,Male,187,83,44,136,Mediterranean Diet
+34,Male,290,172,52,123,Low Fat Diet
+25,Male,292,66,50,101,Low Fat Diet
+35,Male,186,186,68,177,Low Fat Diet
+23,Male,246,216,31,115,Low Fat Diet
+60,Female,158,146,51,139,Mediterranean Diet
+43,Female,269,71,30,133,Low Fat Diet
+38,Female,174,208,67,116,High Protein Diet
+39,Female,261,242,45,159,Low Fat Diet
+39,Male,210,53,30,96,Mediterranean Diet
+50,Female,165,162,45,119,High Protein Diet
+45,Female,202,225,35,114,Mediterranean Diet
+77,Female,219,160,57,126,Mediterranean Diet
+54,Male,273,51,59,149,Low Fat Diet
+26,Female,230,68,64,147,Mediterranean Diet
+69,Female,270,84,55,105,Low Fat Diet
+34,Male,196,245,50,174,Low Fat Diet
+39,Female,155,131,41,162,Low Fat Diet
+54,Male,156,241,56,184,Low Fat Diet
+31,Male,270,95,43,108,Low Fat Diet
+35,Male,198,152,68,149,Mediterranean Diet
+24,Female,203,125,66,91,Mediterranean Diet
+21,Female,164,69,34,120,High Protein Diet
+21,Male,176,218,60,171,Low Fat Diet
+48,Female,194,127,35,106,High Protein Diet
+27,Female,176,143,56,172,Low Fat Diet
+28,Female,251,114,65,188,Low Fat Diet
+50,Male,216,241,55,132,Mediterranean Diet
+30,Female,164,231,30,158,Mediterranean Diet
+70,Male,178,160,39,105,High Protein Diet
+31,Female,209,243,47,102,Mediterranean Diet
+27,Female,186,122,57,189,Low Fat Diet
+78,Female,207,193,68,188,Low Fat Diet
+41,Male,229,73,37,110,Mediterranean Diet
+22,Female,292,151,46,148,Low Fat Diet
+38,Male,179,67,45,123,High Protein Diet
+31,Female,227,145,37,150,Mediterranean Diet
+73,Male,245,168,50,151,Low Fat Diet
+65,Male,243,152,37,133,Low Fat Diet
+28,Male,287,189,57,182,Low Fat Diet
+68,Female,217,94,65,172,Low Fat Diet
+56,Male,298,198,64,102,Low Fat Diet
+69,Female,153,58,55,150,Mediterranean Diet
+70,Male,247,161,58,185,Low Fat Diet
+59,Male,226,95,45,135,Mediterranean Diet
+40,Male,297,215,34,132,Low Fat Diet
+44,Female,225,89,59,174,Low Fat Diet
+70,Female,284,86,68,87,Low Fat Diet
+28,Female,283,244,44,174,Low Fat Diet
+32,Female,278,171,54,104,Low Fat Diet
+22,Male,158,231,60,180,Low Fat Diet
+79,Male,150,120,35,81,High Protein Diet
+22,Female,249,169,31,127,Low Fat Diet
+20,Female,182,133,45,183,Low Fat Diet
+73,Male,242,227,33,121,Low Fat Diet
+78,Male,201,172,57,170,Low Fat Diet
+34,Male,299,209,56,176,Low Fat Diet
+46,Male,254,178,47,118,Low Fat Diet
+28,Male,221,106,35,129,Mediterranean Diet
+76,Female,279,93,61,127,Low Fat Diet
+28,Male,214,59,33,176,Low Fat Diet
+75,Male,263,73,43,171,Low Fat Diet
+29,Male,282,172,53,91,Low Fat Diet
+30,Male,173,79,50,161,Low Fat Diet
+52,Female,193,187,44,110,High Protein Diet
+41,Female,234,151,60,117,Mediterranean Diet
+28,Male,190,200,41,139,Mediterranean Diet
+70,Female,282,173,62,121,Low Fat Diet
+72,Male,185,249,66,153,Mediterranean Diet
+54,Female,157,144,48,183,Low Fat Diet
+47,Male,215,135,34,105,Mediterranean Diet
+48,Male,264,74,66,83,Low Fat Diet
+79,Male,150,71,37,161,Low Fat Diet
+58,Male,199,104,30,87,High Protein Diet
+49,Male,272,181,47,136,Low Fat Diet
+26,Male,175,217,45,176,Low Fat Diet
+74,Male,190,179,66,157,Mediterranean Diet
+51,Female,286,188,61,167,Low Fat Diet
+61,Female,152,239,60,134,Mediterranean Diet
+32,Female,259,100,61,109,Low Fat Diet
+21,Female,181,69,63,141,Mediterranean Diet
+62,Male,214,164,38,120,Mediterranean Diet
+45,Male,299,180,60,132,Low Fat Diet
+66,Female,165,221,59,81,High Protein Diet
+35,Female,181,224,66,156,Mediterranean Diet
+79,Male,181,53,41,96,High Protein Diet
+31,Male,292,208,62,144,Low Fat Diet
+29,Female,161,216,55,118,High Protein Diet
+32,Male,212,88,35,116,Mediterranean Diet
+29,Male,208,197,55,113,Mediterranean Diet
+34,Female,264,90,30,124,Low Fat Diet
+45,Male,280,194,52,164,Low Fat Diet
+33,Male,197,125,39,175,Low Fat Diet
+38,Female,214,134,47,81,Mediterranean Diet
+33,Male,263,95,51,83,Low Fat Diet
+24,Female,285,221,44,126,Low Fat Diet
+50,Female,247,165,55,176,Low Fat Diet
+70,Male,196,111,30,121,High Protein Diet
+24,Female,264,99,42,89,Low Fat Diet
+42,Male,172,159,31,125,High Protein Diet
+40,Female,217,88,37,108,Mediterranean Diet
+42,Female,188,58,41,141,Mediterranean Diet
+32,Male,179,82,32,138,Mediterranean Diet
+32,Female,247,246,68,171,Low Fat Diet
+65,Male,228,50,63,103,Mediterranean Diet
+29,Female,194,71,58,170,Low Fat Diet
+73,Female,170,135,37,81,High Protein Diet
+27,Female,183,113,40,179,Low Fat Diet
+65,Male,259,93,56,87,Low Fat Diet
+77,Female,248,164,37,120,Low Fat Diet
+71,Female,238,84,48,144,Mediterranean Diet
+43,Female,246,93,47,95,Low Fat Diet
+44,Female,171,172,41,111,High Protein Diet
+31,Female,250,112,41,163,Low Fat Diet
+63,Female,169,183,42,130,High Protein Diet
+24,Male,296,242,58,99,Low Fat Diet
+31,Female,260,154,30,173,Low Fat Diet
+26,Male,259,115,40,116,Low Fat Diet
+48,Male,268,225,52,113,Low Fat Diet
+68,Female,268,91,64,187,Low Fat Diet
+64,Female,209,175,33,110,Mediterranean Diet
+58,Female,197,234,69,93,High Protein Diet
+71,Male,199,206,41,90,High Protein Diet
+57,Female,232,69,68,82,Mediterranean Diet
+20,Female,285,246,63,189,Low Fat Diet
+22,Male,275,220,69,180,Low Fat Diet
+45,Male,241,145,43,174,Low Fat Diet
+67,Female,258,156,62,143,Low Fat Diet
+23,Female,185,249,40,121,High Protein Diet
+57,Male,272,97,60,96,Low Fat Diet
+24,Female,298,74,60,147,Low Fat Diet
+66,Male,180,175,59,102,High Protein Diet
+41,Female,261,139,63,145,Low Fat Diet
+26,Female,297,124,51,153,Low Fat Diet
+40,Female,245,217,45,80,Low Fat Diet
+52,Male,259,75,41,181,Low Fat Diet
+48,Male,289,114,48,118,Low Fat Diet
+44,Male,294,75,67,119,Low Fat Diet
+48,Female,242,99,30,189,Low Fat Diet
+34,Female,198,116,47,97,High Protein Diet
+76,Female,182,238,67,80,High Protein Diet
+52,Female,182,205,48,84,High Protein Diet
+56,Female,286,175,59,121,Low Fat Diet
+48,Male,280,155,36,167,Low Fat Diet
+22,Female,291,58,65,88,Low Fat Diet
+61,Male,288,145,31,93,Low Fat Diet
+23,Male,207,167,68,168,Low Fat Diet
+36,Female,163,153,43,114,High Protein Diet
+67,Female,267,92,62,128,Low Fat Diet
+44,Male,206,219,63,165,Low Fat Diet
+49,Female,256,247,49,125,Low Fat Diet
+23,Female,167,50,67,129,High Protein Diet
+40,Female,197,64,33,166,Low Fat Diet
+25,Male,222,151,61,181,Low Fat Diet
+49,Male,200,204,32,132,Mediterranean Diet
+76,Male,281,219,34,92,Low Fat Diet
+70,Male,250,237,58,127,Low Fat Diet
+31,Male,266,194,46,94,Low Fat Diet
+39,Male,258,82,39,101,Low Fat Diet
+77,Male,151,72,45,111,High Protein Diet
+23,Male,178,211,56,91,High Protein Diet
+76,Male,198,154,30,84,High Protein Diet
+58,Female,229,226,61,99,Mediterranean Diet
+43,Male,278,205,48,170,Low Fat Diet
+38,Male,223,217,47,109,Mediterranean Diet
+65,Male,194,96,62,121,High Protein Diet
+32,Male,189,235,61,182,Low Fat Diet
+78,Female,179,159,48,126,High Protein Diet
+62,Male,154,77,62,97,High Protein Diet
+47,Male,283,99,37,121,Low Fat Diet
+59,Female,178,54,51,187,Low Fat Diet
+74,Female,237,166,66,186,Low Fat Diet
+53,Female,265,216,31,94,Low Fat Diet
+45,Female,200,120,62,178,Low Fat Diet
+20,Male,298,100,32,168,Low Fat Diet
+48,Male,251,204,52,83,Low Fat Diet
+50,Female,161,97,67,93,High Protein Diet
+72,Male,162,178,69,100,High Protein Diet
+27,Female,222,182,45,142,Mediterranean Diet
+50,Male,262,121,59,108,Low Fat Diet
+59,Female,176,103,40,145,Mediterranean Diet
+49,Male,222,63,31,166,Low Fat Diet
+56,Male,225,188,49,127,Mediterranean Diet
+27,Female,227,206,48,80,Mediterranean Diet
+32,Female,277,147,38,99,Low Fat Diet
+72,Female,293,85,56,161,Low Fat Diet
+37,Male,262,123,33,138,Low Fat Diet
+58,Male,231,84,46,107,Mediterranean Diet
+78,Female,174,204,47,124,High Protein Diet
+36,Male,197,112,42,177,Low Fat Diet
+60,Male,257,109,42,110,Low Fat Diet
+46,Male,212,156,62,163,Low Fat Diet
+38,Female,199,189,44,149,Mediterranean Diet
+77,Female,292,55,68,145,Low Fat Diet
+63,Male,239,135,52,181,Low Fat Diet
+78,Male,237,92,49,109,Mediterranean Diet
+51,Male,170,114,46,120,High Protein Diet
+58,Female,232,209,52,143,Mediterranean Diet
+71,Male,234,53,54,116,Mediterranean Diet
+75,Male,256,211,63,157,Low Fat Diet
+64,Female,171,232,33,154,Mediterranean Diet
+66,Female,208,83,59,149,Mediterranean Diet
+37,Female,218,58,32,171,Low Fat Diet
+56,Male,208,94,52,116,Mediterranean Diet
+61,Male,289,98,47,160,Low Fat Diet
+28,Male,161,94,56,181,Low Fat Diet
+32,Female,246,197,31,150,Low Fat Diet
+34,Male,188,146,61,175,Low Fat Diet
+58,Male,252,51,34,169,Low Fat Diet
+79,Female,171,52,47,97,High Protein Diet
+30,Female,202,222,55,165,Low Fat Diet
+38,Female,256,88,36,166,Low Fat Diet
+30,Female,192,65,63,102,High Protein Diet
+73,Female,209,98,42,176,Low Fat Diet
+40,Male,245,186,46,119,Low Fat Diet
+73,Female,288,111,41,107,Low Fat Diet
+75,Male,200,98,67,173,Low Fat Diet
+42,Female,290,141,38,184,Low Fat Diet
+62,Female,253,155,52,157,Low Fat Diet
+53,Male,187,225,34,141,Mediterranean Diet
+61,Female,259,172,45,124,Low Fat Diet
+60,Female,258,145,63,123,Low Fat Diet
+51,Female,221,204,62,189,Low Fat Diet
+40,Male,295,246,66,113,Low Fat Diet
+64,Male,263,78,30,118,Low Fat Diet
+39,Female,217,138,44,116,Mediterranean Diet
+43,Female,276,112,34,171,Low Fat Diet
+24,Male,179,193,33,115,High Protein Diet
+34,Female,267,125,58,101,Low Fat Diet
+49,Male,260,92,64,124,Low Fat Diet
+31,Female,226,223,59,123,Mediterranean Diet
+73,Male,215,138,60,117,Mediterranean Diet
+77,Female,218,184,30,169,Low Fat Diet
+78,Male,209,94,41,87,Mediterranean Diet
+58,Male,287,202,68,91,Low Fat Diet
+62,Male,174,173,65,130,High Protein Diet
+67,Female,209,233,69,132,Mediterranean Diet
+72,Female,189,229,36,133,Mediterranean Diet
+49,Female,295,224,43,91,Low Fat Diet
+22,Female,201,128,41,150,Mediterranean Diet
+64,Female,158,171,32,148,Mediterranean Diet
+78,Female,175,105,64,169,Low Fat Diet
+71,Female,287,201,52,126,Low Fat Diet
+46,Male,245,204,34,155,Low Fat Diet
+63,Female,268,79,32,143,Low Fat Diet
+30,Male,239,128,30,156,Mediterranean Diet
+50,Male,228,126,50,116,Mediterranean Diet
+58,Female,264,68,41,137,Low Fat Diet
+61,Female,248,234,67,106,Low Fat Diet
+56,Female,253,194,69,151,Low Fat Diet
+63,Male,163,64,59,118,High Protein Diet
+30,Male,175,149,31,156,Mediterranean Diet
+38,Male,239,154,48,171,Low Fat Diet
+38,Male,190,97,32,86,High Protein Diet
+38,Female,231,232,32,172,Low Fat Diet
+29,Female,155,238,46,113,High Protein Diet
+46,Female,189,181,44,95,High Protein Diet
+49,Female,169,151,67,141,Mediterranean Diet
+41,Male,151,224,46,151,Mediterranean Diet
+39,Female,213,211,52,186,Low Fat Diet
+69,Female,151,192,68,83,High Protein Diet
+34,Male,244,95,40,119,Low Fat Diet

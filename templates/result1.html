@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background: linear-gradient(120deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb, #8EC5FC, #E0C3FC);
+        }
+
+        .circle-container {
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+        }
+
+        svg {
+            width: 120px;
+            height: 120px;
+        }
+
+        .progress-label {
+            display: block;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        h1, h2 {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .progress-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .progress-ring {
+            position: relative;
+            width: 160px;
+            height: 160px;
+            text-align: center;
+        }
+
+        .progress-ring svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .progress-ring circle {
+            transition: stroke-dashoffset 3s ease-in-out, stroke 1.5s ease-in-out;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            max-width: 90%;
+            margin: 40px auto;
+            text-align: left;
+            word-wrap: break-word;
+        }
+
+        pre {
+            font-family: Verdana, sans-serif;
+            white-space: pre-line;
+            word-wrap: break-word;
+            max-height: 400px;
+            overflow-y: auto;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        hr {
+            border: 1px solid #f2eeee;
+            margin: 40px 50px;
+        }
+
+        .error-message {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>The Diet Recommendation</h2>
+    <div class="container">
+        <pre>{{ text }}</pre>
+    </div>
+    <h1>Lipid Profile Results</h1>
+
+    <div class="progress-container">
+        <!-- LDL Progress Ring -->
+        <div class="progress-ring">
+            <svg>
+                <circle cx="60" cy="60" r="50" stroke="#ccc" stroke-width="10" fill="none"></circle>
+                {% if ldl is not none %}
+                <circle cx="60" cy="60" r="50" stroke-width="10" fill="none"
+                        stroke="{% if ldl < 100 %}green{% elif ldl < 160 %}orange{% else %}red{% endif %}"
+                        stroke-dasharray="314"
+                        stroke-dashoffset="{{ 314 - (ldl / 100 * 314) }}" />
+                {% else %}
+                <circle cx="60" cy="60" r="50" stroke="gray" stroke-width="10" fill="none"
+                        stroke-dasharray="314" stroke-dashoffset="314" />
+                {% endif %}
+            </svg>
+            <h3>LDL</h3>
+            <span class="progress-label">{{ ldl if ldl is not none else "N/A" }} mg/dL</span>
+        </div>
+
+        <!-- HDL Progress Ring -->
+        <div class="progress-ring">
+            <svg>
+                <circle cx="60" cy="60" r="50" stroke="#ccc" stroke-width="10" fill="none"></circle>
+                {% if hdl is not none %}
+                <circle cx="60" cy="60" r="50" stroke-width="10" fill="none"
+                        stroke="{% if hdl > 60 %}green{% elif hdl >= 40 %}orange{% else %}red{% endif %}"
+                        stroke-dasharray="314"
+                        stroke-dashoffset="{{ 314 - (hdl / 60 * 314) }}" />
+                {% else %}
+                <circle cx="60" cy="60" r="50" stroke="gray" stroke-width="10" fill="none"
+                        stroke-dasharray="314" stroke-dashoffset="314" />
+                {% endif %}
+            </svg>
+            <h3>HDL</h3>
+            <span class="progress-label">{{ hdl if hdl is not none else "N/A" }} mg/dL</span>
+        </div>
+
+        <!-- Total Cholesterol Progress Ring -->
+        <div class="progress-ring">
+            <svg>
+                <circle cx="60" cy="60" r="50" stroke="#ccc" stroke-width="10" fill="none"></circle>
+                {% if total_cholesterol is not none %}
+                <circle cx="60" cy="60" r="50" stroke-width="10" fill="none"
+                        stroke="{% if total_cholesterol < 200 %}green{% elif total_cholesterol < 240 %}orange{% else %}red{% endif %}"
+                        stroke-dasharray="314"
+                        stroke-dashoffset="{{ 314 - (total_cholesterol / 200 * 314) }}" />
+                {% else %}
+                <circle cx="60" cy="60" r="50" stroke="gray" stroke-width="10" fill="none"
+                        stroke-dasharray="314" stroke-dashoffset="314" />
+                {% endif %}
+            </svg>
+            <h3>Total Cholesterol</h3>
+            <span class="progress-label">{{ total_cholesterol if total_cholesterol is not none else "N/A" }} mg/dL</span>
+        </div>
+
+        <!-- Triglycerides Progress Ring -->
+        <div class="progress-ring">
+            <svg>
+                <circle cx="60" cy="60" r="50" stroke="#ccc" stroke-width="10" fill="none"></circle>
+                {% if triglycerides is not none %}
+                <circle cx="60" cy="60" r="50" stroke-width="10" fill="none"
+                        stroke="{% if triglycerides < 150 %}green{% elif triglycerides < 200 %}orange{% else %}red{% endif %}"
+                        stroke-dasharray="314"
+                        stroke-dashoffset="{{ 314 - (triglycerides / 150 * 314) }}" />
+                {% else %}
+                <circle cx="60" cy="60" r="50" stroke="gray" stroke-width="10" fill="none"
+                        stroke-dasharray="314" stroke-dashoffset="314" />
+                {% endif %}
+            </svg>
+            <h3>Triglycerides</h3>
+            <span class="progress-label">{{ triglycerides if triglycerides is not none else "N/A" }} mg/dL</span>
+        </div>
+
+        <!-- BMI Progress Ring -->
+        <div class="progress-ring">
+            <svg>
+                <circle cx="60" cy="60" r="50" stroke="#ccc" stroke-width="10" fill="none"></circle>
+                {% if bmi is not none %}
+                <circle cx="60" cy="60" r="50" stroke-width="10" fill="none"
+                        stroke="{% if bmi < 18.5 %}orange{% elif bmi <= 24.9 %}green{% elif bmi <= 29.9 %}orange{% else %}red{% endif %}"
+                        stroke-dasharray="314"
+                        stroke-dashoffset="{{ 314 - ((bmi / 40) * 314) }}" />
+                {% else %}
+                <circle cx="60" cy="60" r="50" stroke="gray" stroke-width="10" fill="none"
+                        stroke-dasharray="314" stroke-dashoffset="314" />
+                {% endif %}
+            </svg>
+            <h3>BMI</h3>
+            <span class="progress-label">{{ bmi if bmi is not none else "N/A" }}</span>
+        </div>
+        <!-- Glucose Fasting -->
+       <!-- Glucose Fasting -->
+<div class="progress-ring">
+    <svg>
+        <circle cx="60" cy="60" r="50" stroke="#ccc" stroke-width="10" fill="none"></circle>
+        {% if glucosef is not none %}
+        <circle cx="60" cy="60" r="50" stroke-width="10" fill="none"
+                stroke="{% if glucosef < 100 %}green{% elif glucosef <= 125 %}orange{% else %}red{% endif %}"
+                stroke-dasharray="314"
+                stroke-dashoffset="{{ 314 - (glucosef / 200 * 314) }}" />
+        {% else %}
+        <circle cx="60" cy="60" r="50" stroke="gray" stroke-width="10" fill="none"
+                stroke-dasharray="314" stroke-dashoffset="314" />
+        {% endif %}
+    </svg>
+    <h3>Fasting Glucose</h3>
+    <span class="progress-label">{{ glucosef if glucosef is not none else "N/A" }} mg/dL</span>
+</div>
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h2>Your Indetailed Personalized Recommendations</h2>
+        <h3>Detailed 7-Day Meal Plan & Workout Plan</h3>
+        {% if meal_plan.startswith("Error") %}
+        <p class="error-message">⚠️ {{ meal_plan }}</p>
+        {% else %}
+        <pre>{{ meal_plan }}</pre>
+        {% endif %}
+    </div>
+
+</body>
+</html>

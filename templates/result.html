@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href=
+"https://cdn.dribbble.com/userupload/20584089/file/original-1146fa8a07a67ee6607f72547f5e0306.jpg"
+        type="image/x-icon" />
+    <title>Cholesterol Level & Meal Plan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background: linear-gradient(120deg, #ff9a9e, #fad0c4, #fad0c4, #a18cd1, #fbc2eb, #8EC5FC, #E0C3FC);
+        }
+
+        .progress-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 50px;
+            margin-top: 20px;
+            margin-bottom: 50px; /* Increased bottom spacing */
+        }
+
+        .progress-ring {
+            position: relative;
+            width: 160px;
+            height: 160px;
+            text-align: center;
+        }
+
+        .progress-ring svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .progress-ring circle {
+            transition: stroke-dashoffset 3s ease-in-out, stroke 1.5s ease-in-out;
+        }
+
+        .progress-label {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            max-width: 90%;
+            margin: 80px auto; /* Increased top margin to push it down */
+            text-align: left;
+            word-wrap: break-word;
+        }
+
+        pre {
+            font-family: Verdana, sans-serif;
+            white-space: pre-line;
+            word-wrap: break-word;
+            max-height: 400px;
+            overflow-y: auto;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        hr {
+            border: 1px solid #f2eeee;
+            margin: 40px 0;
+            animation: backwards;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>The Diet Recommendation</h2>
+    <div class="container">
+        <pre>{{ text }}</pre>
+    </div>
+
+    <h2>Cholesterol Levels</h2>
+    <div class="progress-container">
+        <!-- Total Cholesterol -->
+        <div class="progress-ring">
+            <svg>
+                <circle cx="50%" cy="50%" r="50" stroke="#ccc" stroke-width="10" fill="none"></circle>
+                <circle cx="50%" cy="50%" r="50" stroke-width="10" fill="none" 
+                        stroke="{% if total_cholesterol < 200 %}green{% elif total_cholesterol < 240 %}orange{% else %}red{% endif %}" 
+                        stroke-dasharray="314" stroke-dashoffset="{{ 314 - (total_cholesterol / 300 * 314) }}"/>
+            </svg>
+            <h3>Total Cholesterol</h3>
+            <span class="progress-label">{{ total_cholesterol }} mg/dL</span>
+        </div>
+
+        <!-- HDL -->
+        <div class="progress-ring">
+            <svg>
+                <circle cx="50%" cy="50%" r="50" stroke="#ccc" stroke-width="10" fill="none"></circle>
+                <circle cx="50%" cy="50%" r="50" stroke-width="10" fill="none" 
+                        stroke="{% if hdl >= 40 %}green{% else %}red{% endif %}" 
+                        stroke-dasharray="314" stroke-dashoffset="{{ 314 - (hdl / 100 * 314) }}"/>
+            </svg>
+            <h3>HDL</h3>
+            <span class="progress-label">{{ hdl }} mg/dL</span>
+        </div>
+
+        <!-- LDL -->
+        <div class="progress-ring">
+            <svg>
+                <circle cx="50%" cy="50%" r="50" stroke="#ccc" stroke-width="10" fill="none"></circle>
+                <circle cx="50%" cy="50%" r="50" stroke-width="10" fill="none" 
+                        stroke="{% if ldl < 100 %}green{% elif ldl < 160 %}orange{% else %}red{% endif %}" 
+                        stroke-dasharray="314" stroke-dashoffset="{{ 314 - (ldl / 200 * 314) }}"/>
+            </svg>
+            <h3>LDL</h3>
+            <span class="progress-label">{{ ldl }} mg/dL</span>
+        </div>
+    </div>
+
+    <!-- Separator to create spacing -->
+    <hr>
+
+    <div class="container">
+        <h2>Detailed 7-Day Meal Plan & Workout Plan</h2>
+        {% if meal_plan.startswith("Error") %}
+            <p style="color: red; font-weight: bold;">⚠️ {{ meal_plan }}</p>
+        {% else %}
+            <pre>{{ meal_plan }}</pre>
+        {% endif %}
+    </div>
+
+</body>
+</html>
