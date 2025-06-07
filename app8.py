@@ -8,7 +8,7 @@ import pickle
 import google.generativeai as genai
 
 # Configure Gemini API (replace with your real key)
-genai.configure(api_key="AIzaSyDDBrdOrNh4ODNOsyIIEsSOYkQuzHJODnc")
+genai.configure(api_key="AIzaSyAbK8ICujTGYSmAX4v4Dt4-0UJiIlKk4jg")
 
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
@@ -39,6 +39,10 @@ def extract_values(text):
         return None
 
     values["Total Cholesterol"] = extract(
+        r"Total Cholesterol\s*\n?\s*(\d+\.\d+)",
+         r"(\d+\.\d+)\s*Cholesterol\s*Total",
+        r"Cholesterol Total[:\s]+(\d+\.\d+)",
+        r"Cholesterol Total[:\s]+(\d+)",
         r"(\d+\.\d+)\s*Cholesterol\s*Total",
         r"Cholesterol Total[:\s]+(\d+\.\d+)",
         r"Cholesterol Total[:\s]+(\d+)",
@@ -46,33 +50,92 @@ def extract_values(text):
         r"(\d+)\s*Cholesterol\s*Total"
     )
     values["LDL Cholesterol"] = extract(
-         r"(\d+\.\d+)\s*LDL Cholesterol", 
-                              r"LDL Cholesterol[:\s]+(\d+\.\d+)",
-                              r"LDL Cholesterol[:\s]+(\d+)",
-                              r"(\d+\.\d+)\s*LDL Cholesterol,Calculated",
-                              r"(\d+)\s*LDL"
+        r"(\d+\.\d+)\s*LDL Cholesterol",
+        r"LDL Cholesterol[:\s]+(\d+\.\d+)",
+        r"LDL Cholesterol[:\s]+(\d+)",
+        r"(\d+\.\d+)\s*LDL Cholesterol,Calculated",
+        r"(\d+)\s*LDL"
     )
     values["HDL Cholesterol"] = extract(
-       r"(\d+\.\d+)\s*HDL Cholesterol", 
-                              r"HDL Cholesterol[:\s]+(\d+\.\d+)",
-                              r"HDL Cholesterol[:\s]+(\d+)",
-                              r"(\d+\.\d+)\s*HDL Cholesterol,Calculated",
-                              r"(\d+)\s*HDL"
+        r"(\d+\.\d+)\s*HDL Cholesterol",
+        r"HDL Cholesterol[:\s]+(\d+\.\d+)",
+        r"HDL Cholesterol[:\s]+(\d+)",
+        r"(\d+\.\d+)\s*HDL Cholesterol,Calculated",
+        r"(\d+)\s*HDL"
     )
     values["Triglycerides"] = extract(
         r"(\d+\.\d+)\s*Triglycerides",
-                              r"Triglycerides[:\s]+(\d+\.\d+)",
-                              r"Triglycerides[:\s]+(\d+)",
-                              r"(\d+)\s*Triglycerides"
+        r"Triglycerides[:\s]+(\d+\.\d+)",
+        r"Triglycerides[:\s]+(\d+)",
+        r"(\d+)\s*Triglycerides"
     )
     values["GlucoseF"] = extract(
-    r"Glucose,\s*Fasting.*?(\d{2,3}\.\d{1,2})\s*$",                        # Match at end of line
-    r"Glucose,?\s*Fasting\s*mg/dL\s*\d{2,3}\.\d{2}\s*-\s*\d{2,3}\.\d{2}\s*(\d{2,3}\.\d{2})",  # Match after ref range
-    r"Glucose,?\s*Fasting.*?(\d{2,3}\.\d{2})"                              # Generic fallback
+    r"Glucose,\s*Fasting.*?(\d{2,3}\.\d{1,2})",
+    r"Glucose,?\s*Fasting\s*mg/dL\s*\d{2,3}\.\d{2}\s*-\s*\d{2,3}\.\d{2}\s*(\d{2,3}\.\d{2})",
+    r"Glucose,?\s*Fasting.*?(\d{2,3}\.\d{2})",
+    r"Fasting Glucose *?(\d{2,3}\.\d{2})",
+    r"Glucose\s*,?\s*Fasting\s+(\d+(?:\.\d+)?)"
 )
 
-    return values
 
+    # CBC and others
+    values["Hemoglobin"] = extract(r"Hemoglobin (Colorimetric method)[:\s]+(\d+\.\d+)", r"Hb[:\s]+(\d+\.\d+)")
+    values["Total Leukocyte Count"] = extract(r"Total Leukocyte Count[:\s]+(\d+)", r"WBC[:\s]+(\d+)")
+    values["Platelet Count"] = extract(r"Platelet Count[:\s]+(\d+)")
+    values["Hematocrit"] = extract(r"Hematocrit[:\s]+(\d+\.\d+)", r"HCT[:\s]+(\d+\.\d+)")
+    values["RBC Count"] = extract(r"Red Blood Cell Count[:\s]+(\d+\.\d+)", r"RBC[:\s]+(\d+\.\d+)")
+    values["MCV"] = extract(r"Mean Corpuscular Volume[:\s]+(\d+\.\d+)", r"MCV[:\s]+(\d+\.\d+)")
+    values["MCH"] = extract(r"Mean Corpuscular Hemoglobin[:\s]+(\d+\.\d+)", r"MCH[:\s]+(\d+\.\d+)")
+    values["MCHC"] = extract(r"Mean Corpuscular Hemoglobin Concentration[:\s]+(\d+\.\d+)", r"MCHC[:\s]+(\d+\.\d+)")
+
+    # Diabetes
+    values["HbA1c"] = extract(r"HbA1c[:\s]+(\d+\.\d+)")
+    values["Postprandial Blood Glucose"] = extract(r"Postprandial Blood Glucose[:\s]+(\d+\.\d+)", r"PPBG[:\s]+(\d+\.\d+)")
+    values["Random Blood Sugar"] = extract(r"Random Blood Sugar[:\s]+(\d+\.\d+)", r"RBS[:\s]+(\d+\.\d+)")
+
+    # Kidney
+    values["Creatinine"] = extract(r"Creatinine[:\s]+(\d+\.\d+)")
+    values["BUN"] = extract(r"Blood Urea Nitrogen[:\s]+(\d+\.\d+)",
+                            r"Blood Urea Nitrogen[\s]+(\d+\.\d+)")
+    values["eGFR"] = extract(r"eGFR[:\s]+(\d+\.\d+)")
+
+    # Liver
+    values["SGPT"] = extract(r"SGPT[:\s]+(\d+\.\d+)", r"ALT[:\s]+(\d+\.\d+)")
+    values["SGOT"] = extract(r"SGOT[:\s]+(\d+\.\d+)", r"AST[:\s]+(\d+\.\d+)")
+    values["Total Bilirubin"] = extract(r"Total Bilirubin[:\s]+(\d+\.\d+)")
+    values["ALP"] = extract(r"Alkaline Phosphatase[:\s]+(\d+\.\d+)")
+    values["GGT"] = extract(r"GGT[:\s]+(\d+\.\d+)")
+
+    # Thyroid
+    values["TSH"] = extract(r"TSH[:\s]+(\d+\.\d+)")
+    values["Free T3"] = extract(r"Free T3[:\s]+(\d+\.\d+)")
+    values["Free T4"] = extract(r"Free T4[:\s]+(\d+\.\d+)")
+
+    # Vitamins & Minerals
+    values["Vitamin D"] = extract(r"Vitamin D[:\s]+(\d+\.\d+)")
+    values["Vitamin B12"] = extract(r"Vitamin B12\s+(\d+\.\d+)")
+
+    values["Serum Calcium"] = extract(r"Serum Calcium[:\s]+(\d+\.\d+)")
+    values["Serum Iron"] = extract(r"Serum Iron[:\s]+(\d+\.\d+)")
+    values["Ferritin"] = extract(r"Ferritin[:\s]+(\d+\.\d+)")
+    values["Folate"] = extract(r"Folate[:\s]+(\d+\.\d+)")
+    values["Magnesium"] = extract(r"Magnesium[:\s]+(\d+\.\d+)")
+    values["Zinc"] = extract(r"Zinc[:\s]+(\d+\.\d+)")
+
+    # Body Composition
+    values["Body Fat %"] = extract(r"Body Fat[:\s]+(\d+\.\d+)")
+    values["Waist-to-Hip Ratio"] = extract(r"Waist-to-Hip Ratio[:\s]+(\d+\.\d+)")
+    values["Visceral Fat"] = extract(r"Visceral Fat[:\s]+(\d+\.\d+)")
+    values["Muscle Mass"] = extract(r"Muscle Mass[:\s]+(\d+\.\d+)")
+    values["BMR"] = extract(r"Basal Metabolic Rate[:\s]+(\d+\.\d+)", r"BMR[:\s]+(\d+\.\d+)")
+    values["Haemoglobin"] = extract(r"Haemoglobin[:\s]+(\d+\.\d+)")
+    values["RBC Count"] = extract(r"RBC Count[:\s]+(\d+\.\d+)")
+    values["WBC Count"] = extract(r"WBC Count[:\s]+(\d+)")
+    values["Blood Urea"] = extract(r"Blood Urea[:\s]+(\d+\.\d+)")
+    # Remove None values for use in diet prediction and frontend
+    values = {k: v for k, v in values.items() if v is not None}
+
+    return values
 # Predict diet recommendation based on extracted values and BMI
 def predict_diet_with_bmi(data, bmi, systolic_bp, diastolic_bp, smoking, diabetes, heart_attack):
     if None in data.values():
@@ -107,7 +170,13 @@ def get_meal_plan(name, age, gender, data, bmi):
     triglycerides = data.get("Triglycerides", "unknown")
     glucosef = data.get("GlucoseF", "unknown")
     food = data.get("food", "unknown")
+    vitaminB12=data.get("Vitamin B12","unknown")
+    Haemoglobin=data.get("Haemoglobin","unknown")
+    WBCCount=data.get("WBC Count","unknown")
+    RBCCount=data.get("RBC Count","unknown")
+    BloodUrea=data.get("Blood Urea","unknown")
     gender_text = "male" if gender == 1 else "female"
+    
     prompt = f"""
     Create a **7-day personalized meal and exercise plan** for the following individual:
     
@@ -121,6 +190,11 @@ def get_meal_plan(name, age, gender, data, bmi):
     - Triglycerides: {triglycerides}
     - Glucose: {glucosef}
     - Food:{food}
+    - Vitamin:{vitaminB12}
+    - RBC:{RBCCount}
+    - WBC:{WBCCount}
+    - Haemoglobin:{Haemoglobin}
+    - BloodUrea:{BloodUrea}
     
     The plan should be:
     - Tailored to heart health and lipid management.
@@ -129,6 +203,9 @@ def get_meal_plan(name, age, gender, data, bmi):
     - Include water intake recommendations and portion size guidance.
     - Keep meals culturally neutral, practical and easily available in urban India.
     - Include only {food} meals.
+    - Suggest Indian Diet With Indian Nomenclature 
+- The suggestions should be based on general health guidelines and publicly available diet practices, without impersonating any organization.
+    - While suggesting diet please consider the Vitamin:{vitaminB12} , WBC:{WBCCount} ,RBC:{RBCCount}, Haemoglobin:{Haemoglobin} , BloodUrea:{BloodUrea} if this values are null or 0 please suggest diet based on above profile 
     
     Format output as:
     Day 1:
@@ -141,7 +218,8 @@ def get_meal_plan(name, age, gender, data, bmi):
     (Repeat for Day 2 to Day 7)
     """
     try:
-        model = genai.GenerativeModel("gemini-1.5-pro-latest")
+        # model = genai.GenerativeModel("gemini-1.5-pro-latest")gemini-2.0-flash
+        model = genai.GenerativeModel("gemini-2.0-flash")
         response = model.generate_content(prompt)
         
         if response and hasattr(response, 'text'):
@@ -191,6 +269,8 @@ def upload_file():
         # Predict diet and generate meal plan
         diet = predict_diet_with_bmi(extracted_data, bmi, systolic_bp, diastolic_bp, smoking, diabetes, heart_attack)
         meal_plan = get_meal_plan(name, age, gender, extracted_data, bmi)
+        print(extracted_data)
+
 
         return render_template('result1.html', 
                                text=diet,
